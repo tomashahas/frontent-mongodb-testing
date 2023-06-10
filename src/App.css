@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+button{
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+input{
+    font-size: 20px;
+    padding: 30px;
+}
